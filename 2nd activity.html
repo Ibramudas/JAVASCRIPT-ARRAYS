@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ARRAY</title>
+    </head>
+    <body>
+        <h1>JAVASCRIPT PUSH AND POP</h1>
+        <h3 id="h3"></h3>
+        <h3 id="h2"></h3>
+        <h3 id="h1"></h3>
+        <h3 id="ha"></h3>
+        <h3 id="h4"></h3>
+        <h3 id="h0"></h3>
+        <script>
+            var vegetables=["Orange", "Onions", "cucumber", "carrot", "Apple"]
+            var vehicles=["car", "truck", "Bike", "Digger"]
+            document.getElementById("h3").innerHTML=vegetables.join("*")
+            vegetables.pop()
+            document.getElementById("h2").innerHTML=vegetables.join("*")
+            vegetables.pop()
+            document.getElementById("h1").innerHTML=vegetables.join("*")
+            vegetables.pop()
+            document.getElementById("ha").innerHTML=vegetables.join("*")
+            vegetables.pop()
+            document.getElementById("h4").innerHTML=vegetables.join("*")
+            vegetables.push("vinegar")
+            document.getElementById("h0").innerHTML=vegetables.join("*")
+        </script>
