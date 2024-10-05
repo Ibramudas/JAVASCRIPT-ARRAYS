@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project</title>
+    </head>
+    <body>
+        <h1>ARRAY ACP</h1>
+        <h4 id="h4"></h4>
+        <h4 id="h5"></h4>
+        <h4 id="h6"></h4>
+        <h4 id="h7"></h4>
+        <h4 id="h8"></h4>
+        <h4 id="h1"></h4>
+        <h4 id="h2"></h4>
+        <h4 id="h3"></h4>
+        <h4 id="h0"></h4>
+        <script>
+var Info = {
+  name: "Tinu",
+  age: 25,
+  favoriteColors: ["Blue", "Green", "Purple"]
+};
+document.getElementById("h4").innerHTML="Name: " + Info.name;
+document.getElementById("h5").innerHTML="Name: " + Info.age;
+
+</script>
+<script>
+    var colors=["Red", "Orange", "Green", "Violet",]
+    document.getElementById("h6").innerHTML="these are Tinu's favorite colors: " + colors;
+    document.getElementById("h7").innerHTML="Her best color is: " + colors[1]
+    
+    document.getElementById("h3").innerHTML=colors.join("*")
+            colors.pop()
+            document.getElementById("h8").innerHTML=colors.join("*")
+            colors.pop()
+            document.getElementById("h1").innerHTML=colors.join("*")
+            colors.pop()
+            document.getElementById("h2").innerHTML=colors.join("*")
+            colors.pop()
+            document.getElementById("h3").innerHTML=colors.join("*")
+            colors.push("Violet")
+            document.getElementById("h0").innerHTML=colors.join("*")
+</script>
